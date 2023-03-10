@@ -27,3 +27,12 @@ function decrement(n) {
     return n -1
 }
 
+function makeInt(n){
+   return parseInt(n,10)
+}
+makeInt(6.666)
+
+function preserveDecimal(n) {
+    return parseFloat(n)
+}
+preserveDecimal(10.234)
